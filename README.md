@@ -1,4 +1,4 @@
-# Pwd-buddy :cloud: 
+# Backup-codium :cloud: 
 
 Script to handle backup for VSCodium
 

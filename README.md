@@ -1,4 +1,4 @@
-# Pwd-buddy :lock: :key:
+# Pwd-buddy :cloud: 
 
 Script to handle backup for VSCodium
 
@@ -12,11 +12,11 @@ Script to handle backup for VSCodium
   cd ~/Documentos
   zip -r vscopium.zip ./VSCodium ./.vscode-oss
   python3 -m venv venv 
-  git clone https://github.com/Art0r/pwd-buddy.git ~/pwd-buddy
-  cd ~/backup-codium
+  git https://github.com/Art0r/backup-codium.git
+  cd ./backup-codium
   pip install -r requirements.txt
   python main.py
-  cd .. && rm -rf ~/backup-codium
+  cd .. && rm -rf ./backup-codium
 ```
 
 ### Download
